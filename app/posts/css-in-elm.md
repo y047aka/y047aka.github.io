@@ -163,7 +163,7 @@ elm-css のレイアウトパターン集です。
 CSS で最も難しいことのひとつが色の管理です。
 変数を活用する方法は既存の CSS でも普及していますが、私は background / color / border などをセットにした Palette という単位を試しています。
 今のところ上手く機能しているので、elm-css を使う利点の 1 つとして考えています。
-[https://github.com/y047aka/y047aka.space/blob/master/src/Color/Palette.elm](https://github.com/y047aka/y047aka.space/blob/master/src/Color/Palette.elm)
+[https://github.com/y047aka/y047aka.github.io/blob/master/src/Color/Palette.elm](https://github.com/y047aka/y047aka.github.io/blob/master/src/Color/Palette.elm)
 
 #### elm-ui との関係性
 
