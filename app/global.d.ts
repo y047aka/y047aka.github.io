@@ -6,7 +6,7 @@ declare module 'hono' {
     // biome-ignore lint/style/useShorthandFunctionType: <explanation>
     (
       content: string | Promise<string>,
-      meta?: Meta & { frontmatter: Meta }
+      meta?: { frontmatter?: Meta; currentPath?: string }
     ): Response | Promise<Response>
   }
 }

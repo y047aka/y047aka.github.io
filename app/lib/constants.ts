@@ -1,3 +1,5 @@
 export const baseURL = 'https://y047aka.github.io'
 export const siteName = 'y047aka.github.io'
 export const owner = 'Yoshitaka Totsuka'
+export const siteDescription = 'Yoshitaka Totsukaの個人ブログ'
+export const defaultOGImage = '/images/icon-png.png'

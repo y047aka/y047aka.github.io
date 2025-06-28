@@ -32,7 +32,11 @@ export default createRoute(
           <div class={css`font-size: 14px; line-height: 1; color: hsl(210 5% 50%);`}>{pubDate}</div>
         </header>
         <div class={markdownCSS}>{post?.Component({})}</div>
-      </>
+      </>,
+      {
+        frontmatter: post?.frontmatter,
+        currentPath: `/posts/${slug}`
+      }
     )
   }
 )
